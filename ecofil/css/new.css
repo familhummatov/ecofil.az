@@ -1,0 +1,38 @@
+.header-agile img{
+	width: 150px;
+	border-radius: 10px;
+}
+.nav-item{
+	border-radius: 10px;
+}
+header{
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+}
+.header li a:hover, .header .menu-btn:hover, li.nav-item {
+	border-radius: 10px;
+	color: black !important;
+}
+.header li a {
+	border: none !important;
+	color: white !important;
+	font-size: 16px !important;
+	font-weight: bold !important;
+}
+.ecofilogo img{
+	border: none !important;
+}
+.ecofil_product{
+	height: 250px !important;
+	transition: transform .2s !important;
+}
+.popup_product{
+	height: 270px !important;
+} 
+.ecofil_product:hover{
+	-ms-transform: scale(1.5); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.1); 
+}
